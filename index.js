@@ -1,7 +1,13 @@
+var ticketNum = 0;
 function takeANumber(line, name) {
   line.push(`${name}`);
   return (`Welcome, ${name}. You are number ${line.length} in line.`)
 }
+function takeANumber2() {
+  ticketNum++;
+  return (`Welcome you are ticket number ${ticketNum}.`)
+}
+
 function nowServing(line) {
   if(line.length === 0) {
     return ("There is nobody waiting to be served!");
