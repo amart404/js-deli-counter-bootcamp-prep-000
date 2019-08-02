@@ -30,3 +30,5 @@ function currentLine(line) {
     return ("The line is currently:" + newLine);
   }
 }
+takeANumber2()
+takeANumber2()
