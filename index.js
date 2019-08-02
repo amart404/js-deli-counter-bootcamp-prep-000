@@ -5,7 +5,7 @@ function takeANumber(line, name) {
 }
 function takeANumber2() {
   ticketNum++;
-  return (`Welcome you are ticket number ${ticketNum}.`)
+  console.log(`Welcome you are ticket number ${ticketNum}.`)
 }
 
 function nowServing(line) {
